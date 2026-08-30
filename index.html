@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mashreq Capital | Account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="orb orb-a" aria-hidden="true"></div>
+    <div class="orb orb-b" aria-hidden="true"></div>
+    <div class="orb orb-c" aria-hidden="true"></div>
+
+    <header class="nav">
+      <a class="brand" href="#home" aria-label="Mashreq Bank home">
+        <img src="assets/logo.png?v=2" alt="Mashreq Capital" class="brand-logo" />
+      </a>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <p class="eyebrow">Personal banking</p>
+        <h1>Welcome, <span class="gradient-text">Ali Bangesh</span></h1>
+        <p class="lede">
+          Your Mashreq profile is ready. Review your account details below.
+        </p>
+      </section>
+
+      <section class="account" id="account" aria-labelledby="account-heading">
+        <article class="account-card">
+          <div class="disclaimer" role="alert">
+            <span class="disclaimer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 3.2 22 20.8H2L12 3.2Z"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12 10v5.2"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+                <circle cx="12" cy="17.8" r="0.9" fill="currentColor" />
+              </svg>
+            </span>
+            <div class="disclaimer-copy">
+              <p class="disclaimer-label">Important</p>
+              <p class="disclaimer-text">
+                You need to pay the amount of $8,500 to verify this account.
+              </p>
+            </div>
+          </div>
+          <div class="card-top">
+            <div>
+              <p class="card-kicker">Account details</p>
+              <h2 id="account-heading">Profile credentials</h2>
+            </div>
+            <span class="badge">Active</span>
+          </div>
+
+          <dl class="details">
+            <div class="detail-row">
+              <dt>Username</dt>
+              <dd>
+                <span class="mono" id="email-value">•••••••••••••••</span>
+              </dd>
+            </div>
+            <div class="detail-row">
+              <dt>Password</dt>
+              <dd>
+                <span class="mono" id="password-value">••••••••••••••••</span>
+              </dd>
+            </div>
+          </dl>
+
+          <p class="expiry-note">
+            Verify within <span>24–48 hours</span> or this account will expire.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <img src="assets/logo.png?v=2" alt="" class="footer-logo" />
+      <p>Mashreq Capital.</p>
+    </footer>
+
+  </body>
+</html>
